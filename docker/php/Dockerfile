@@ -11,5 +11,5 @@ RUN apt-get update && apt-get install -y \
     unzip \
     vim \
     zip \
-    && docker-php-ext-install pdo_mysql \
+    && docker-php-ext-install mysqli \
     && a2enmod rewrite
